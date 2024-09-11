@@ -1,0 +1,8 @@
+[
+    { "id": "1", "title": "กู้ยืม", "uri": "https://raw.githubusercontent.com/Aorathai27/JarbeieiApp/main/assets/home-icon-01.webp" },
+    { "id": "2", "title": "สถาณศึกษา", "uri": "https://raw.githubusercontent.com/Aorathai27/JarbeieiApp/main/assets/home-icon-02.webp"  },
+    { "id": "3", "title": "การชำระหนี้", "uri": "https://raw.githubusercontent.com/Aorathai27/JarbeieiApp/main/assets/home-icon-03.webp"  },
+    { "id": "4", "title": "การหักเงินเดือน", "uri": "https://raw.githubusercontent.com/Aorathai27/JarbeieiApp/main/assets/home-icon-04.webp"  },
+    { "id": "5", "title": "บริจาคโลหิต", "uri": "https://raw.githubusercontent.com/Aorathai27/JarbeieiApp/main/assets/IconBlood_0(1).webp" },
+    { "id": "6", "title": "กิจกรรมจิตอาสา", "uri": "https://raw.githubusercontent.com/Aorathai27/JarbeieiApp/main/assets/IconHeart_0.webp" }
+]
