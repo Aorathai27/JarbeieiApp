@@ -6,10 +6,9 @@ import FlatListExample from './screens/FlatListExample';
 
 export default function App() {
   return (
-//     <NavigationContainer>
-//     <BottomTab />
-// </NavigationContainer>
-<FlatListExample/>
+    <NavigationContainer>
+    <BottomTab />
+</NavigationContainer>
   );
 }
 
