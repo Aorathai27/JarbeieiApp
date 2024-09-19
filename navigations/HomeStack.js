@@ -1,24 +1,21 @@
-import React from 'react';
-import { createStackNavigator } from '@react-navigation/stack';
+import React from "react";
+import { createStackNavigator } from "@react-navigation/stack";
+import Bookarsa from "../screens/์ืืBookarsa";
+import BookD_arsa from "../screens/BookD_arsa";
+import BookF_arsa from "../screens/BookF_arsa";
+
 
 
 const Stack = createStackNavigator();
 
 export default function HomeStack() {
-    return (
-        <Stack.Navigator initialRouteName="Ex01">
-          <Stack.Screen
-            name="Ex01"
-            component={Ures}
-            options={{ title: "Exercise 1" }}
-          />      
-          <Stack.Screen
-            name="Ex02"
-            component={Ex02}
-            options={{ title: "Exercise 2" }}
-          />
-        </Stack.Navigator>
-      );
-    
-}
+  return (
+    <Stack.Navigator initialRouteName="BottomTab">
 
+      <Stack.Screen name="Book" component={Bookarsa} options={{ title: "Book" }} />
+      <Stack.Screen name="BookDetail" component={BookD_arsa} options={{ title: "Book Detail" }} />
+      <Stack.Screen name="BookForm" component={BookF_arsa}   />
+    
+    </Stack.Navigator>
+  );
+}

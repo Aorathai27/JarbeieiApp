@@ -21,10 +21,9 @@ export default function Tour(props) {
 
   return (
     <View style={props.style}>
-      <Text style={{ fontSize: 20 }}>TourFlatList</Text>
+      <Text style={{ fontSize: 20 }}>บริการต่างๆที่เกี่ยวข้อง</Text>
       <Text style={{ color: "grey" }}>
-        Let find out what most interesting things
-      </Text>
+        บริการที่เกี่ยวข้องกับผู้กู้ ก.ย.ศ </Text>
       
 
       <FlatList
@@ -51,13 +50,13 @@ export default function Tour(props) {
                   height: 30,
                   width: '100%',
                   paddingHorizontal: 10,
-                  backgroundColor: "yellow",
+                  backgroundColor: '#d1dddb',
                   opacity: 0.5,
                   borderBottomLeftRadius: 10,
                   borderBottomRightRadius: 10,
                 }}
               >
-                <Text style={{ fontSize: 20, color: "white" }}>
+                <Text style={{ fontSize: 20, color: "black" }}>
                   {item.title}
                 </Text>
               </View>
