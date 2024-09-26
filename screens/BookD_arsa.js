@@ -3,7 +3,7 @@ import { Alert, Image, Text, TouchableOpacity, View } from "react-native";
 import { FontAwesome } from "@expo/vector-icons";
 import { useNavigation } from "@react-navigation/native";
 
-export default function BookD_arsa() {
+export default function BookDetail() {
     const navigation = useNavigation();
     // const route = useRoute();   
     const [book, setBook] = useState({

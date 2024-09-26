@@ -40,10 +40,8 @@ export default function BookF_arsa() {
   return (
     <KeyboardAvoidingView style={{ flex: 1, padding: 20 }}>
       <ScrollView>
-        <Text>ชื่อหนังสือ</Text>
+        <Text>ชื่อกิจกรรมจิตอาสา</Text>
         <TextInput placeholder="Enter name ..." value={name} onChangeText={(text) => setName(text)} />
-        <Text>ราคา</Text>
-        <TextInput placeholder="Enter price ..." value={price} onChangeText={(text) => setPrice(text)} />
         <Text>ลิงค์รูปภาพ</Text>
         <TextInput placeholder="Enter image URL ..." value={image} onChangeText={(text) => setImage(text)} />
       </ScrollView>

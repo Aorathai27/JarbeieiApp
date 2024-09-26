@@ -4,9 +4,9 @@ import { FontAwesome } from "@expo/vector-icons";
 import { useNavigation } from "@react-navigation/native";
 
 export default function Bookarsa() {    
-    const navigation = useNavigation(); 
+    const navigation = useNavigation();
     const [books, setBooks] = useState([
-        { id: 1, name: "พัฒนา Application ด้วย React และ React Native", price: 330, image: "https://raw.githubusercontent.com/arc6828/myreactnative/master/assets/week9/book-1.jpg", },
+        { id: 1, name: "หลักสูตร “อุ่นใจไซเบอร์”",  image: "https://raw.githubusercontent.com/Aorathai27/JarbeieiApp/refs/heads/main/assets/AW%20%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3%E0%B8%AD%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B9%83%E0%B8%88%20CYBER_980x397px.webp", },
         { id: 2, name: "พัฒนาเว็บแอพพลิเคชันด้วย Firebase ร่วมกับ React", price: 229, image: "https://raw.githubusercontent.com/arc6828/myreactnative/master/assets/week9/book-2.jpg", },
         { id: 3, name: "พัฒนา Web Apps ด้วย React Bootstrap + Redux", price: 349, image: "https://raw.githubusercontent.com/arc6828/myreactnative/master/assets/week9/book-3.jpg", },
         { id: 4, name: "พัฒนาเว็บแอพพลิเคชันด้วย React Redux+Bootstrap", price: 229, image: "https://raw.githubusercontent.com/arc6828/myreactnative/master/assets/week9/book-4.jpg", },
@@ -18,7 +18,7 @@ export default function Bookarsa() {
 
     const BookItem = ({ item, index })=>(
         <TouchableOpacity 
-            // onPress={() => { navigation.navigate("BookDetail", { "id": item.id }); }} 
+            onPress={() => { navigation.navigate("BookD_arsa", { "id": item.id }); }} 
             style={{ backgroundColor: "white", margin: 7, flex: 1, elevation: 5, }} 
             >
             <View style={{ flexDirection: "row" }}>
@@ -28,7 +28,6 @@ export default function Bookarsa() {
                 <Text style={{ fontSize: 20 }}> {item.name} </Text>
                 <View style={{ flexDirection: "row" }}>
                     <Text style={{ fontSize: 20, color: "green" }}>{item.price}</Text>
-                    <Text style={{ paddingTop: 6 }}> บาท</Text>
                 </View>
             </View>            
         </TouchableOpacity>
